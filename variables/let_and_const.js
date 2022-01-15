@@ -33,6 +33,7 @@ profile.name = "park";
 console.log(profile);
 
 // profile 자체를 변경할 순 없지만 profile 내 어떤 것은 바꿀 수 있다
+// const 는 참조변수 메모리의 주소값이 변하지 않을 뿐, 그 주소가 가리키는 데이터들은 변할 수 있다
 
 let; // (재할당 가능, 재선언 불가능)
 
