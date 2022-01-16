@@ -16,6 +16,8 @@ console.log(plus);
 // arrow function
 // 함수의 모습을 개선한 것
 
+// 배열에서
+
 const score = ["A", "B", "C"]
 
 const plus = score.map(item => item + "+");
@@ -31,6 +33,18 @@ const plus = score.map((item, index) => {
     console.log("index no: ", index)
     return index + " : " + item + "+"
 });
+
+// 객체에서
+
+const rtObj = () => {username : "kim"};
+// > undefined
+// 이는 {}안의 코드가 일련의 명령문으로 파싱되기 때문입니다(즉, username은 객체 리터럴의 키가 아니라 라벨처럼 처리됨).
+// 이를 해결하기 위해서
+
+const rtObj = () => ({username : "kim"});
+// > {username : "kim", age: 20}
+// 객체 리터럴 표현식을 반환하기 위해서는 표현식을 괄호로 감싸야함
+
 
 // arrow function 의 제한점
 
