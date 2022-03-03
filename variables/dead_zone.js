@@ -27,3 +27,4 @@ let myName = "kim";
 // let은 var과 달리 선언과 초기화 단계(let과 const는 hoisting 시 undefined로 변수를 초기화하지 않는다)가 분리되어 진행되고 
 //선언과 초기화 완료시점 까지를 TDZ(Temporal Dead Zone)이라 칭하며 초기화 전에 접근하면 ReferenceError를 발생한다
 
+// hoisting 참조(https://developer.mozilla.org/ko/docs/Glossary/Hoisting)

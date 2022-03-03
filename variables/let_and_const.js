@@ -41,5 +41,3 @@ let l = 1;
 l = 2;
 let l =3; // 에러
 
-
-// var이 쓰이지 않는 이유가 궁금하다면 hoisting에 대해 알아 보자(https://developer.mozilla.org/ko/docs/Glossary/Hoisting)
